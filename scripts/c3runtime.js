@@ -4241,6 +4241,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.StopAnim,
 		C3.Behaviors.Pin.Acts.PinByProperties,
 		C3.Behaviors.Sin.Acts.SetMovement,
+		C3.Plugins.Json.Acts.SetInstanceVar,
 		C3.Plugins.progressbar.Cnds.CompareProgress,
 		C3.Plugins.Sprite.Acts.StartAnim,
 		C3.Plugins.System.Acts.Wait,
@@ -4370,6 +4371,7 @@ self.C3_ExpressionFuncs = [
 			const n0 = p._GetNode(0);
 			return () => n0.ExpInstVar();
 		},
+		() => 0,
 		() => 9,
 		() => 7
 ];
